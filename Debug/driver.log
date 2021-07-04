@@ -1,0 +1,11 @@
+﻿  Building 'driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  berkeley.c
+  ksocket.c
+  Создание кода...
+  Компиляция...
+  main.cpp
+F:\MXwaer Source\Driver\main.cpp(109,34): error C2220: следующее предупреждение рассматривается как ошибка
+F:\MXwaer Source\Driver\main.cpp(109,34): warning C4189: module: локальная переменная инициализирована, но не использована
+F:\MXwaer Source\Driver\main.cpp(173,51): error C2440: инициализация: невозможно преобразовать "PIMAGE_NT_HEADERS" в "PIMAGE_NT_HEADERS64"
+F:\MXwaer Source\Driver\main.cpp(173,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  Создание кода...
